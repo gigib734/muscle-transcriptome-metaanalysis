@@ -2,9 +2,8 @@ library(readxl)
 library(DESeq2)
 library(dplyr)
 
-pheno <- read_excel("Z:/Students/Michael/lab/transcriptomics/datasets/DALE/Data/DALE_phenotypes.xlsx")
-counts <- read.delim("z:/Students/Michael/lab/transcriptomics/datasets/DALE/Data/DALE_counts.tsv")
-
+pheno <- read_excel("C:/Users/gbloc/Desktop/PCDHG_Gila/Transcriptomic rna seq data/DALE/Data/DALE_phenotypes.xlsx")
+counts <- read.delim("C:/Users/gbloc/Desktop/PCDHG_Gila/Transcriptomic rna seq data/DALE/Data/DALE_counts.tsv")
 
 head(counts)
 head(pheno)
